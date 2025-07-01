@@ -27,7 +27,7 @@ La compilation native d’ONLYOFFICE sur macOS Sequoia pose actuellement des pro
 
 2. **Créer le script d’automatisation**
 
-   Copiez le contenu ci-dessous (sinon, il y en a un déjà tout-prêt, appelé `build-onlyoffice-macos.sh` sans intervention de Docker) dans un fichier nommé `build_onlyoffice.sh`, script avec l'utilisation de Docker:
+   Copiez le contenu ci-dessous (sinon, il y en a un déjà tout-prêt, appelé `build-onlyoffice-macos.sh`, sans intervention de Docker) dans un fichier nommé `build_onlyoffice.sh`, script avec l'utilisation de Docker:
 
    ```bash
    #!/bin/bash
