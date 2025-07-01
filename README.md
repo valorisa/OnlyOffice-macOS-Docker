@@ -2,7 +2,6 @@
 
 ![ONLYOFFICE Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/ONLYOFFICE_logo_%28default%29.svg/2560px-ONLYOFFICE_logo_%28default%29.svg.png)
 
-
 ## 🚀 Présentation
 
 Ce projet explique comment compiler et utiliser **ONLYOFFICE Desktop Editors** sur **macOS Sequoia (Intel)** grâce à Docker.  
@@ -30,7 +29,7 @@ La compilation native d’ONLYOFFICE sur macOS Sequoia pose actuellement des pro
 
    Copiez le contenu ci-dessous dans un fichier nommé `build_onlyoffice.sh` :
 
-   ```
+   ```bash
    #!/bin/bash
 
    BUILD_TOOLS_DIR="$HOME/build_tools"
@@ -57,7 +56,7 @@ La compilation native d’ONLYOFFICE sur macOS Sequoia pose actuellement des pro
 
 3. **Rendre le script exécutable et lancer la compilation**
 
-   ```
+   ```bash
    chmod +x build_onlyoffice.sh
    ./build_onlyoffice.sh
    ```
@@ -85,12 +84,15 @@ Pour les utiliser sur macOS, il est recommandé de les exécuter dans une machin
 ## ❓ FAQ
 
 ### Q : Puis-je lancer les binaires Linux directement sur macOS ?
+
 R : Non, les binaires compilés sont pour Linux. Utilisez-les dans une VM Linux ou sur un serveur.
 
 ### Q : Pourquoi ne pas compiler nativement sur macOS ?
+
 R : Les dépendances (Qt, etc.) et des bugs spécifiques à macOS Sequoia rendent la compilation native très complexe, voire impossible actuellement.
 
 ### Q : Puis-je utiliser ONLYOFFICE autrement sur macOS ?
+
 R : Oui, via la version web d’ONLYOFFICE ou en utilisant une VM Linux sur votre Mac.
 
 ---
