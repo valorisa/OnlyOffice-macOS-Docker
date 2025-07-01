@@ -73,15 +73,15 @@ echo "Compilation de l’interface Electron..."
 yarn run build:desktop
 
 # 8. (Optionnel) Signature et création du DMG
-DMG_NAME="ONLYOFFICE-DesktopEditors.dmg"
-APP_PATH="dist/mac/ONLYOFFICE.app"
-CODE_IDENTITY="Developer ID Application: Votre Nom (ID…)"  # <— À modifier
+# DMG_NAME="ONLYOFFICE-DesktopEditors.dmg"
+# APP_PATH="dist/mac/ONLYOFFICE.app"
+# CODE_IDENTITY="Developer ID Application: Votre Nom (ID…)"  # <— À modifier
 
-if command -v codesign &>/dev/null && command -v hdiutil &>/dev/null; then
-  echo "Signature de l’application avec l’identité '$CODE_IDENTITY'..."
-  codesign --deep --force --options runtime \
-    --sign "$CODE_IDENTITY" \
-    "$APP_PATH"
+# if command -v codesign &>/dev/null && command -v hdiutil &>/dev/null; then
+#  echo "Signature de l’application avec l’identité '$CODE_IDENTITY'..."
+#  codesign --deep --force --options runtime \
+#   --sign "$CODE_IDENTITY" \
+#   "$APP_PATH"
 
   echo "Création du DMG $DMG_NAME..."
   hdiutil create -volname "ONLYOFFICE Desktop Editors" \
