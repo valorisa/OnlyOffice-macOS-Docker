@@ -1,6 +1,6 @@
 # ONLYOFFICE Desktop Editors sur macOS Sequoia (Intel) — Compilation et utilisation via Docker
 
-![ONLYOFFICE Logo](https://github.com/ONLYOFFICE/onlyoffice.github.io/raw/master/images/logo.png)
+![ONLYOFFICE Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/ONLYOFFICE_logo_%28default%29.svg/2560px-ONLYOFFICE_logo_%28default%29.svg.png)
 
 
 ## 🚀 Présentation
